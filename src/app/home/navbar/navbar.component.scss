@@ -1,0 +1,26 @@
+.navbar {
+  background-color: #ffffff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  font-size: 10px;
+
+  .navbar-brand {
+    font-weight: normal;
+  }
+
+  .nav-link {
+    font-weight: 400;
+    color: #faf7f7;
+
+    &:hover {
+      color: #727e09;
+    }
+  }
+
+  .form-control {
+    border-radius: 20px;
+  }
+
+  .btn {
+    border-radius: 20px;
+  }
+}
